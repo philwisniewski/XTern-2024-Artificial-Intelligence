@@ -1,8 +1,9 @@
 # Reflection and analysis of research process
 
 ## Distributions and Biases
-- Some variable values lack data in comparison to other values in the same variable. For example, there are 640 physics majors, yet only 3 civil engineering majors. This can lead to overfitting and a lack of generalization depending on the major of the student. A potential solution would be grouping majors by college within their university, for example, by combining the different types of engineering majors together.
+- Many variables are strongly skewed in favor of a subset of features, such as Years being vastly overrepresented by years 2 and 3. Order (target variable) appears to be roughly evenly distributed.
 - Lots of categorical features, which lends itself towards favoring specific machine learning models if data is not transformed (which for the case of this mini-project, was not)
+- Images of distibutions and contingency tables can be found in /Graphs and Tables/
 ## Other potential uses for data
 - Rather than predicting students orders, this data could potentially be used to predict the amount of money students are willing to spend, the amount of food (measured in calories) students are likely to want, or the average time students get lunch based on a multitude of factors. Furthermore, this data could potentially be generalized into a model that predicts a student's desired meal for more than just the 10 meals offered, based on predicting the students desired calories or price and using that to predict which meal they would select, allowing further expansion of our food truck businesses.
 
